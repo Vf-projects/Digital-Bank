@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+@theme{
+  --breakpoint-6: 300px;
+  --breakpoint-xs: 400px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-beforeTablet: 800px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1124px;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(240, 237, 237);
+}
