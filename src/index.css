@@ -6,7 +6,7 @@ html{
 
 @theme{
   --breakpoint-6: 300px;
-  --breakpoint-xs: 400px;
+  --breakpoint-xs: 350px;
   --breakpoint-tablet: 768px;
   --breakpoint-beforeTablet: 800px;
   --breakpoint-laptop: 1024px;
@@ -19,5 +19,5 @@ body{
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: rgb(240, 237, 237);
+  background-color: #f0eded;
 }
